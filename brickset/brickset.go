@@ -38,7 +38,6 @@ func sendRequest(apiKey string, url string, body string) (*resty.Response, error
 
 	client := resty.New()
 
-	// test
 	//client.SetDebug(true)
 
 	baseUrl := "https://brickset.com/api/v3.asmx"
